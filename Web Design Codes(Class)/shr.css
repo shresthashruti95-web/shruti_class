@@ -1,0 +1,24 @@
+#logo-img{
+   text-align: left;
+}
+
+#home,#shop,#categories,#about,#contact,#signin,#signup{
+    background-color: #e2dada;
+    color: #101010;
+    padding: 8px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    margin: 8px;
+    margin-bottom: 64px;
+    text-decoration: none;
+}
+
+#nav-links{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    border-bottom: 2px solid #000000;
+}

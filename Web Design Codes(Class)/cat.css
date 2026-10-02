@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    border-bottom: 2px solid #000000;
+
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+#moon {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#nav-links {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #dcd4d4;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #c5ecf5;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid #000000;
+}
+
+#heading {
+   margin-top: 20px;
+}
+
+.cat{
+    margin: 20px 20px;
+    width: 50%;
+    background-color: #b7d1ef;
+    text-align: center;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 20px;
+    width: 50%;
+    align-items: center;
+    background-color: #b2d4fa;
+}
+
+.p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center; 
+}
+
+.contact-link {
+    padding: 10px 20px;
+    color: #101010;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    margin-top: 20px; 
+}

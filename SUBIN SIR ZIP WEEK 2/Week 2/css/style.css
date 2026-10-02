@@ -1,0 +1,49 @@
+header{
+    background-color: red;
+    border: 2px solid black;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    border: 2px solid black;
+}
+
+#container{
+    margin: 64px auto;
+    
+    text-align: center;
+    width: 50%;
+}
+
+p{
+    margin: 20px;
+}
+
+#button-container{
+    margin: 40px 0px;
+}
+
+.btn{
+    padding: 16px 24px;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+.filled-button{
+    background-color: blue;
+    color: white;
+}
+
+.filled-button:hover{
+    padding: 32px 48px;
+    background-color: black;
+    font-size: 28px;
+}
+
+.outline-button{
+    border: 1px solid blue;
+    color: blue;
+}

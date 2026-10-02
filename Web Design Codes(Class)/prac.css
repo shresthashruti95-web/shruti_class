@@ -1,0 +1,261 @@
+/* Reset */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+/* Logo */
+.logo a {
+    width: 45px;
+    height: 45px;
+
+    border: 2px solid #333;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================= FEATURED ================= */
+
+.featured {
+    position: relative;
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+}
+
+.featured-image {
+    width: 100%;
+    height: 100%;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Featured text */
+.featured-content {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+
+    transform: translateY(-50%);
+
+    width: 300px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+}
+
+.featured-content h1 {
+    margin-bottom: 10px;
+}
+
+.featured-content p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+}
+
+
+/* ================= RECENT POSTS ================= */
+
+.recent-posts {
+    width: 65%;
+}
+
+.recent-posts h2 {
+    margin-bottom: 25px;
+}
+
+.post {
+    display: flex;
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.post img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.post h3 {
+    margin-bottom: 8px;
+}
+
+.post p {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.post a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+
+/* ================= SIDEBAR ================= */
+
+aside {
+    width: 35%;
+}
+
+
+/* Subscribe */
+.subscribe {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.subscribe h3 {
+    margin-bottom: 10px;
+}
+
+.subscribe form {
+    display: flex;
+}
+
+.subscribe input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.subscribe button {
+    width: 30%;
+    border: 1px solid #555;
+    background-color: white;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+/* Categories */
+.categories h3 {
+    margin-bottom: 15px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-list a {
+    border: 1px solid #aaa;
+    padding: 8px 12px;
+
+    text-decoration: none;
+    color: #333;
+}
+
+.category-list a:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .featured {
+        height: 350px;
+    }
+
+    .featured-content {
+        right: 20px;
+        left: 20px;
+        width: auto;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .recent-posts,
+    aside {
+        width: 100%;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}
